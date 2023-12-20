@@ -1,0 +1,10 @@
+requests
+fastapi[all]
+uvicorn
+pytest
+pytest-cov
+black
+isort
+flake8
+bandit
+safety
