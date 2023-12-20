@@ -1,7 +1,7 @@
 import pytest
 from starlette.testclient import TestClient
 
-from services.main import app
+from main import app
 
 
 @pytest.fixture

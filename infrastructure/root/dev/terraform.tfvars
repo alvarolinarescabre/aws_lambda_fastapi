@@ -1,0 +1,1 @@
+lambda_fastapi_zip = "lambda_fastapi.zip"
