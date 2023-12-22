@@ -1,9 +1,6 @@
 ## Introduction
 In this project we implemented a app on FastAPI in the container running on AWS Lambda and published on AWS API Gateway
-using Terrafom.
-
-The app count the **"href="** tag on ten random website index page.
-
+using Terrafom. The app count the **"href="** tag on ten random website index page.
 
 ## Quick Installation
     python -m venv .venv
@@ -15,6 +12,8 @@ The app count the **"href="** tag on ten random website index page.
     Go to API Gateway URL with path /dev/docs
     
 ## Demostration
+
+[deploy.webm](https://github.com/alvarolinarescabre/aws_lambda_fastapi/assets/12623570/adf957a3-f082-4748-b44b-da4d171e3bb2)
 
 [demo.webm](https://github.com/alvarolinarescabre/aws_lambda_fastapi/assets/12623570/79c80fa1-3be6-4649-865f-93b89f53ac84)
 
@@ -47,3 +46,5 @@ The URLs of the App services from AWS API Gateway are:
 
 In the demo app not have implemented CI/CD, but that reason if we change the app code we need to update the var
 **tag = "v1.0"** manually to a new version to create a update, and then run again **terraform apply**.
+
+You can change the website to search on the file **app/conf/settings.py -> random_website**
