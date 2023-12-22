@@ -2,7 +2,7 @@ import os
 import uvicorn
 from fastapi import FastAPI
 from mangum import Mangum
-from configs.settings import Settings
+from conf.settings import Settings
 from fastapi.encoders import jsonable_encoder
 from fastapi.responses import JSONResponse
 from timeit import default_timer as timer
