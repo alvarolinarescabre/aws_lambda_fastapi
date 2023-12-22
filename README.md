@@ -42,3 +42,8 @@ The URLs of the App services from AWS API Gateway are:
     1.- /dev/ -> root
     2.- /dev/ping -> healthcheck endpoint
     3.- /dev/docs -> the swagger endpoint
+
+## Important Note
+
+In the demo app not have implemented CI/CD, but that reason if we change the app code we need to update the var
+**tag = "v1.0"** manually to a new version to create a update, and then run again **terraform apply**.
