@@ -1,6 +1,6 @@
 ## Introduction
 In this project we implemented a app on FastAPI in the container running on AWS Lambda and published on AWS API Gateway
-using Terrafom. The app count the **"href="** tag on ten random website index page.
+using Terrafom. The app count the **"href="** tag on **only ten** random website index page.
 
 ## Quick Installation
     python -m venv .venv
