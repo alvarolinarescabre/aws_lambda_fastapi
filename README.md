@@ -40,7 +40,8 @@ The URLs of the App services from AWS API Gateway are:
 
     1.- /dev/ -> root
     2.- /dev/ping -> healthcheck endpoint
-    3.- /dev/docs -> the swagger endpoint
+    3.- /dev/counter -> counter tags endpoint
+    4.- /dev/docs -> the swagger endpoint
 
 ## Important Note
 
